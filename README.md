@@ -19,8 +19,7 @@ This is repo for our Mac App.
 ![ScreenShot](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/blob/master/pics/ScreenCapArduino.png) 
 
 
-2.  Change Serial settings in Arduino App
-Change:
+2.  In Arduino App, **serialVisual** to  **= false**:
 ```
 // Regards Serial OutPut  -- Set This Up to your needs
 static boolean serialVisual = true;   // Set to 'true' by Default. 
