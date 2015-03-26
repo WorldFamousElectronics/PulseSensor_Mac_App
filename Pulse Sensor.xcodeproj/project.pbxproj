@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C339C631A5DB518007C74A0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C339C621A5DB518007C74A0 /* IOKit.framework */; };
+		6C339C651A5DC853007C74A0 /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C339C641A5DC853007C74A0 /* icon_128x128@2x.png */; };
+		6CA34CA61A5328600005CEBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA34CA51A5328600005CEBA /* AppDelegate.m */; };
+		6CA34CA81A5328600005CEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA34CA71A5328600005CEBA /* main.m */; };
+		6CA34CAB1A5328600005CEBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA34CAA1A5328600005CEBA /* ViewController.m */; };
+		6CA34CAD1A5328600005CEBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA34CAC1A5328600005CEBA /* Images.xcassets */; };
+		6CA34CB01A5328600005CEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA34CAE1A5328600005CEBA /* Main.storyboard */; };
+		6CA34CBC1A5328600005CEBA /* PulseSensorMacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA34CBB1A5328600005CEBA /* PulseSensorMacAppTests.m */; };
+		6CA34CCB1A532C670005CEBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA34CCA1A532C670005CEBA /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA34CB61A5328600005CEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA34C971A5328600005CEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA34C9E1A5328600005CEBA;
+			remoteInfo = PulseSensorMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C339C621A5DB518007C74A0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		6C339C641A5DC853007C74A0 /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_128x128@2x.png"; sourceTree = "<group>"; };
+		6CA34C9F1A5328600005CEBA /* Pulse Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pulse Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA34CA31A5328600005CEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA34CA41A5328600005CEBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CA34CA51A5328600005CEBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CA34CA71A5328600005CEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CA34CA91A5328600005CEBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CA34CAA1A5328600005CEBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CA34CAC1A5328600005CEBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CA34CAF1A5328600005CEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA34CB51A5328600005CEBA /* Pulse SensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pulse SensorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA34CBA1A5328600005CEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA34CBB1A5328600005CEBA /* PulseSensorMacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulseSensorMacAppTests.m; sourceTree = "<group>"; };
+		6CA34CCA1A532C670005CEBA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6CA34CCC1A5368CB0005CEBA /* PulseSensorMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PulseSensorMacApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA34C9C1A5328600005CEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C339C631A5DB518007C74A0 /* IOKit.framework in Frameworks */,
+				6CA34CCB1A532C670005CEBA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA34CB21A5328600005CEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA34C961A5328600005CEBA = {
+			isa = PBXGroup;
+			children = (
+				6CA34CA11A5328600005CEBA /* PulseSensorMacApp */,
+				6CA34CB81A5328600005CEBA /* PulseSensorMacAppTests */,
+				6CA34CA01A5328600005CEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA34CA01A5328600005CEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA34C9F1A5328600005CEBA /* Pulse Sensor.app */,
+				6CA34CB51A5328600005CEBA /* Pulse SensorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA34CA11A5328600005CEBA /* PulseSensorMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				6CA34CCC1A5368CB0005CEBA /* PulseSensorMacApp.entitlements */,
+				6CA34CA41A5328600005CEBA /* AppDelegate.h */,
+				6CA34CA51A5328600005CEBA /* AppDelegate.m */,
+				6CA34CA91A5328600005CEBA /* ViewController.h */,
+				6CA34CAA1A5328600005CEBA /* ViewController.m */,
+				6CA34CAC1A5328600005CEBA /* Images.xcassets */,
+				6C339C641A5DC853007C74A0 /* icon_128x128@2x.png */,
+				6CA34CAE1A5328600005CEBA /* Main.storyboard */,
+				6CA34CA21A5328600005CEBA /* Supporting Files */,
+			);
+			path = PulseSensorMacApp;
+			sourceTree = "<group>";
+		};
+		6CA34CA21A5328600005CEBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C339C621A5DB518007C74A0 /* IOKit.framework */,
+				6CA34CCA1A532C670005CEBA /* Cocoa.framework */,
+				6CA34CA31A5328600005CEBA /* Info.plist */,
+				6CA34CA71A5328600005CEBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA34CB81A5328600005CEBA /* PulseSensorMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA34CBB1A5328600005CEBA /* PulseSensorMacAppTests.m */,
+				6CA34CB91A5328600005CEBA /* Supporting Files */,
+			);
+			path = PulseSensorMacAppTests;
+			sourceTree = "<group>";
+		};
+		6CA34CB91A5328600005CEBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA34CBA1A5328600005CEBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA34C9E1A5328600005CEBA /* Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA34CBF1A5328600005CEBA /* Build configuration list for PBXNativeTarget "Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */;
+			buildPhases = (
+				6CA34C9B1A5328600005CEBA /* Sources */,
+				6CA34C9C1A5328600005CEBA /* Frameworks */,
+				6CA34C9D1A5328600005CEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
+			productName = PulseSensorMacApp;
+			productReference = 6CA34C9F1A5328600005CEBA /* Pulse Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA34CB41A5328600005CEBA /* Pulse SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA34CC21A5328600005CEBA /* Build configuration list for PBXNativeTarget "Pulse SensorTests" */;
+			buildPhases = (
+				6CA34CB11A5328600005CEBA /* Sources */,
+				6CA34CB21A5328600005CEBA /* Frameworks */,
+				6CA34CB31A5328600005CEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA34CB71A5328600005CEBA /* PBXTargetDependency */,
+			);
+			name = "Pulse SensorTests";
+			productName = PulseSensorMacAppTests;
+			productReference = 6CA34CB51A5328600005CEBA /* Pulse SensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA34C971A5328600005CEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "World Famous Electronics llc";
+				TargetAttributes = {
+					6CA34C9E1A5328600005CEBA = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					6CA34CB41A5328600005CEBA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6CA34C9E1A5328600005CEBA;
+					};
+				};
+			};
+			buildConfigurationList = 6CA34C9A1A5328600005CEBA /* Build configuration list for PBXProject "Pulse Sensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA34C961A5328600005CEBA;
+			productRefGroup = 6CA34CA01A5328600005CEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA34C9E1A5328600005CEBA /* Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename */,
+				6CA34CB41A5328600005CEBA /* Pulse SensorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA34C9D1A5328600005CEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C339C651A5DC853007C74A0 /* icon_128x128@2x.png in Resources */,
+				6CA34CAD1A5328600005CEBA /* Images.xcassets in Resources */,
+				6CA34CB01A5328600005CEBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA34CB31A5328600005CEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA34C9B1A5328600005CEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA34CAB1A5328600005CEBA /* ViewController.m in Sources */,
+				6CA34CA81A5328600005CEBA /* main.m in Sources */,
+				6CA34CA61A5328600005CEBA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA34CB11A5328600005CEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA34CBC1A5328600005CEBA /* PulseSensorMacAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA34CB71A5328600005CEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA34C9E1A5328600005CEBA /* Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename */;
+			targetProxy = 6CA34CB61A5328600005CEBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA34CAE1A5328600005CEBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA34CAF1A5328600005CEBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA34CBD1A5328600005CEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CA34CBE1A5328600005CEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CA34CC01A5328600005CEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PulseSensorMacApp/PulseSensorMacApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = PulseSensorMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Pulse Sensor";
+			};
+			name = Debug;
+		};
+		6CA34CC11A5328600005CEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PulseSensorMacApp/PulseSensorMacApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = PulseSensorMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Pulse Sensor";
+			};
+			name = Release;
+		};
+		6CA34CC31A5328600005CEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulseSensorMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Pulse SensorTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulse Sensor.app/Contents/MacOS/Pulse Sensor";
+			};
+			name = Debug;
+		};
+		6CA34CC41A5328600005CEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulseSensorMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Pulse SensorTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulse Sensor.app/Contents/MacOS/Pulse Sensor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA34C9A1A5328600005CEBA /* Build configuration list for PBXProject "Pulse Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA34CBD1A5328600005CEBA /* Debug */,
+				6CA34CBE1A5328600005CEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA34CBF1A5328600005CEBA /* Build configuration list for PBXNativeTarget "Pulse Sensor.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA34CC01A5328600005CEBA /* Debug */,
+				6CA34CC11A5328600005CEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA34CC21A5328600005CEBA /* Build configuration list for PBXNativeTarget "Pulse SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA34CC31A5328600005CEBA /* Debug */,
+				6CA34CC41A5328600005CEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA34C971A5328600005CEBA /* Project object */;
+}
