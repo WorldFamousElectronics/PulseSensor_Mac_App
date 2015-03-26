@@ -32,4 +32,4 @@ too:
 static boolean serialVisual = false;   // Re-set to 'false' to sendDataToSerial instead. : ) 
 
 ```
-That's it!.  Fire up this app. 
+That's it!.  Fire up the Mac App, select your USB port, and see it go. 
