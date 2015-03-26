@@ -12,3 +12,23 @@ This App:
 
 ## Screen Shot
 ![ScreenShot](https://github.com/WorldFamousElectronics/PulseSensor_Mac_App/blob/master/pics/macappscreen.png) 
+
+
+## Installation
+1. Before running this program, install our *Pulse Sensor Arduino Code** <a href="https://https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduinor"> "Processing Visualizer"</a>
+
+2.  Change Serial settings in Arduino App
+
+Change:
+```
+// Regards Serial OutPut  -- Set This Up to your needs
+static boolean serialVisual = true;   // Set to 'true' by Default. 
+
+```
+too:
+```
+// Regards Serial OutPut  -- Set This Up to your needs
+static boolean serialVisual = false;   // Re-set to 'false' to sendDataToSerial instead. : ) 
+
+```
+That's it!.  Fire up this app. 
