@@ -16,9 +16,10 @@ This is repo for our Mac App.
 
 ## Installation
 1. Before running this program, install our <a href="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduinor"> "Pulse Sensor Arduino Code"</a>
+![ScreenShot](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/blob/master/pics/ScreenCapArduino.png) 
+
 
 2.  Change Serial settings in Arduino App
-
 Change:
 ```
 // Regards Serial OutPut  -- Set This Up to your needs
