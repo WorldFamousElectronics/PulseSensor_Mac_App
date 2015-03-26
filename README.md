@@ -4,7 +4,7 @@
 This is repo for our Mac App. 
  **Download Pulse Sensor Mac App** <a href="https://itunes.apple.com/us/app/pulse-sensor/id974284569?ls=1&mt=12"> "Pulse Sensor Mac App"</a>
  
-This App:
+## This App
 1. Beat's Heart Image to User's Live Heartbeat   
 2. Show User's Pulse activity in realtime
 3. Displays BPM
