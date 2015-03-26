@@ -15,7 +15,7 @@ This App:
 
 
 ## Installation
-1. Before running this program, install our *Pulse Sensor Arduino Code** <a href="https://https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduinor"> "Processing Visualizer"</a>
+1. Before running this program, install our <a href="https://https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduinor"> "Pulse Sensor Arduino Code"</a>
 
 2.  Change Serial settings in Arduino App
 
