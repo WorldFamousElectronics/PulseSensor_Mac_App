@@ -6,9 +6,9 @@ This is repo for our Mac App.
  
 ## This App
 1. Beat's Heart Image to User's Live Heartbeat   
-2. Show User's Pulse activity in realtime
+2. Show User's Pulse activity in real-time
 3. Displays BPM
-4. Allows for Serial Port selectiona. 
+4. Allows for Serial Port selection
 
 ## Screen Shot
 ![ScreenShot](https://github.com/WorldFamousElectronics/PulseSensor_Mac_App/blob/master/pics/macappscreen.png) 
