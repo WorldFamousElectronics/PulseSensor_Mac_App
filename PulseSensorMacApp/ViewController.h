@@ -21,7 +21,10 @@
     IBOutlet NSLevelIndicator *levelBeatHappened;
     IBOutlet NSLevelIndicator *level2;
     IBOutlet NSTextField *labelHeart;
+    IBOutlet NSTextField *lableHeart2;
+    IBOutlet NSTextFieldCell *levelBeatHappened2;
     IBOutlet NSTextField *labelBPM;
+    IBOutlet NSTextField *labelBPM2;
     
     
     //  Arduino Connection Stuff
@@ -58,7 +61,7 @@
 - (IBAction) refreshAction: (id) cntrl;
 //- (IBAction) resetButton: (NSButton *) btn;
 
-// NSMenu Items
+// UI Stuff
 
 
 

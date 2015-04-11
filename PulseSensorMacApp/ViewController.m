@@ -57,10 +57,16 @@ int beatsSampleCounter = 0;
     [levelBeatHappened setIntValue:0];
     
     
+    // UI Stuff
     [self printArray];   // for debugging
     [labelHeart setTitleWithMnemonic:@"❤"];
     [labelHeart setAlphaValue:0.2];
     [level2 setIntValue:51];
+
+        [self ArduinoHeartOff] ;
+    
+    
+    
     
     
     
@@ -322,37 +328,54 @@ int beatsSampleCounter = 0;
 
 // Old Code Hack Together With New
 - (void) receivedString:(NSString *)rx {
-      NSLog(@"Received string! %@", rx);
+   //   NSLog(@"Received string! %@", rx);
     
-    if ([rx hasPrefix:@"S"] ) {
-        NSString* cleanedString = [rx substringFromIndex:1];
-        
-        if ([cleanedString intValue] > 90 ) {
-         
-        
-            Signal = [cleanedString intValue];
-            [_level setIntValue:Signal];
-            [self PulseSensorFullCode:Signal];
-            
-        }
-    }
-    
-//    if ([rx hasPrefix:@"Q"]) {
+//    if ([rx hasPrefix:@"S"] ) {
 //        NSString* cleanedString = [rx substringFromIndex:1];
-//        Signal = [cleanedString intValue];
-//        //    [levelBeatHappened]
+//        
+//        if ([cleanedString intValue] > 90 ) {
+//         
+//        
+//            Signal = [cleanedString intValue];
+//            [_level setIntValue:Signal];
+//            [self PulseSensorFullCode:Signal];
+//            
+//        }
+//    
+//  
 //    }
     
-    
-    
-    
-    
-    
-    //  [level2 setFloatValue:levelAdaptor];
-    
-    
-    
-}
+    if (!([rx hasPrefix:@"S"]) && (![rx  isEqual: @" "] ) ) {
+        
+   //     if ([rx hasPrefix:@"B"] ) {
+
+            labelBPM2.stringValue = rx;
+
+    //    }
+        
+//        NSLog(@"Not S or Space %@", rx);
+
+//        NSString* cleanedString = [rx substringFromIndex:1];
+        
+//               [self ArduinoHeartOn];
+        
+        
+        }
+
+    if ([rx hasPrefix:@"B"] ) {
+        
+        NSLog(@"  BBB   Received string! %@", rx);
+
+        NSString* cleanedString = [rx substringFromIndex:1];
+        
+        labelBPM2.stringValue = cleanedString;
+      //  Signal = [cleanedString intValue];
+      //  [_level setIntValue:Signal];
+        
+        [self ArduinoHeartOn];
+        
+        }
+    }
 
 
 
@@ -618,6 +641,32 @@ int beatsSampleCounter = 0;
 -(void) buttonResetPressed:(id)sender{
     [self resetPulseSensorAlgoVariablesToDefault];
 }
+
+
+// UI Stuff
+-(void) ArduinoHeartOn{
+    //
+    
+    [lableHeart2 setAlphaValue:1.0];
+    [lableHeart2 setTextColor:[NSColor redColor]];
+    [lableHeart2 setTitleWithMnemonic:@"❤"];
+    [levelBeatHappened setIntValue:2];
+    
+    
+}
+
+-(void) ArduinoHeartOff{
+    //
+    
+    [lableHeart2 setAlphaValue:0.2];
+    [lableHeart2 setTextColor:[NSColor redColor]];
+    [lableHeart2 setTitleWithMnemonic:@"❤"];
+    [levelBeatHappened2 setIntValue:0];
+    
+}
+
+
+
 
 
 @end
