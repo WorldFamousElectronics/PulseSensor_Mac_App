@@ -15,7 +15,7 @@ This is repo for our Mac App.
 
 
 ## Installation
-1. Before running this program, install our <a href="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduinor"> "Pulse Sensor Arduino Code"</a>
+1. Before running this program, install our <a href="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino"> "Pulse Sensor Arduino Code"</a>
 ![ScreenShot](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/blob/master/pics/ScreenCapArduino.png) 
 
 
